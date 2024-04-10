@@ -121,7 +121,7 @@ try {
   writeln('\\-----------------------------------------------/')
   setTimeout(() => {
     kernel.boot(boot, progress, args).catch(e => console.error(e))
-  }, 10000)
+  }, 1)
 } catch (e) {
   writeln()
   writeln('An error occured while booting FlowOS.')
