@@ -117,7 +117,7 @@ try {
   const args = new URLSearchParams(window.location.search)
   const kernel = new Kernel()
   writeln('/-----------------------------------------------\\')
-  writeln('| FlowOS is now discontinued. Starting in 10s...|')
+  writeln('| FlowOS is now discontinued. Starting...')
   writeln('\\-----------------------------------------------/')
   setTimeout(() => {
     kernel.boot(boot, progress, args).catch(e => console.error(e))
