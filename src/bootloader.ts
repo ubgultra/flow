@@ -117,7 +117,7 @@ try {
   const args = new URLSearchParams(window.location.search)
   const kernel = new Kernel()
   writeln('/-----------------------------------------------\\')
-  writeln('| FlowOS is now discontinued. Starting...')
+  writeln('| FlowOS is now starting. Hosted by UBG Ultra.    |')
   writeln('\\-----------------------------------------------/')
   setTimeout(() => {
     kernel.boot(boot, progress, args).catch(e => console.error(e))
